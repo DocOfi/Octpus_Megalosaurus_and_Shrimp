@@ -1,0 +1,11 @@
+# basic options
+title: Octopus_Meagalosuarus_and_Shrimp
+author: Edmund Julian L. Ofilada
+email: eofilada@yahoo.com
+description: Everything and anything about life and R
+twitter_username: @DocOfi
+github_username: DocOfi
+
+# Build settings
+markdown: kramdown
+theme: minima
