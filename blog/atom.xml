@@ -16,9 +16,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://DocOfi.github.io/Octpus_Megalosaurus_and_Shrimp{{ post.url }}"/>
+			<link href="http://docofi.github.io/Octpus_Megalosaurus_and_Shrimp{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://DocOfi.github.io/Octpus_Megalosaurus_and_Shrimp{{ post.id }}</id>
+			<id>http://docofi.github.io/Octpus_Megalosaurus_and_Shrimp{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
