@@ -1,0 +1,18 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>DocOfi's Blog</title>
+	<link href="https://docofi.github.io/Octpus_Megalosaurus_and_Shrimp/atom.xml" rel="self"/>
+	<link href="http://DocOfi.github.io/Octpus_Megalosaurus_and_Shrimp/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://hankquinlan.github.io/blog</id>
+	<author>
+		<name>DocOfi</name>
+		<email>eofilada@yahoo.com</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
