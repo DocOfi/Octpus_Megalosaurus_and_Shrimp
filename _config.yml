@@ -10,5 +10,7 @@ github_username: DocOfi
 markdown: kramdown
 theme: minima
 
+plugins:
+  - jekyll-sitemap
 
 permalink: /blog/:year/:month/:day/:title
